@@ -121,7 +121,8 @@ const HEAD = (
             marginLeft: "120px",
           }}
         />
-        <div style={{ height: "10px", width: "250px", background: "black" }} />
+      <div style={{ height: "10px", width: "250px", background: "black" }} />
       </div>
+      
     )
   }

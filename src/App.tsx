@@ -3,6 +3,7 @@ import { HangmanDrawing } from "./HangmanDrawing"
 import { HangmanWord } from "./HangmanWord"
 import { Keyboard } from "./Keyboard"
 import words from "./wordList.json"
+import "./App.css"
 
 function getWord() {
   return words[Math.floor(Math.random() * words.length)]
@@ -64,7 +65,7 @@ function App() {
   }, [])
 
   return (
-    <div
+    <div className="App"
       style={{
         maxWidth: "800px",
         display: "flex",
